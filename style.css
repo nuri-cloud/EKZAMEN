@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.block{
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 50px auto;
+}
+
+.linii {
+    margin-top: 20px;
+    margin: 0 auto;
+    width: 1400px;
+    height: 4px;
+    background-color: #E4E4E4; 
+    border: none; 
+}
+
+
+.container {
+    margin: 0 auto;
+   
+    background-color: brown;
+}
+
+.result {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+
+.card {
+    width: calc(25% - 20px);
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+   
+   
+}
+
+.card img {
+    width: 281.72px;
+    height: 390.67px;
+    
+}
+
+.card:hover {
+    transform: scale(1.1); 
+    opacity: 0.8;
+}
+
+.p {
+   color: #656565;
+     font-size: 22px;   
+     font-weight: 700;       
+}
+
+.p .p1 {
+    font-size: 34px;
+    font-weight: 700;
+    color: black;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    width: 282px;
+    height: 46px;
+   
+}
+
+
+
+.count{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    text-align: center;  
+    position: absolute;
+   right: -10px;
+    top: 40px;
+}
+.icons{
+   position: relative;
+}
+.modal{
+   width: 443px;
+   border: 3px solid #E4E4E4;
+   padding: 20px;
+   background-color: white;
+   min-height: 279px;
+   position: absolute;
+   right: 0;
+   top: 40px;
+   z-index: 99;
+   display: none;
+}
+.modal-header img{
+   width: 30px;
+   height: 30px;
+   display: flex;
+   justify-content: space-araund;
+}
+.modal-header{
+   display: flex;
+   justify-content: flex-end;
+}
+
+.modal-product {
+    max-height: 400px;
+   overflow-x: scroll;
+}
+.modal-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.modal-main h4 {
+   font-size: 28px;
+}
+.modal-main p {
+   font-size: 28px;
+   color: #656565;
+}
+.modal-main img{
+    width: 150px;
+    height: 150px;
+  
+    
+}
+.modal-btn{
+    width: 100%;
+    height: 42px;
+    background-color: white;
+    color: black;
+    font-size: 24px;
+    border: solid 2px black;
+    font-family: Baskerville;
+    cursor: pointer;
+    letter-spacing: 4px;
+}
